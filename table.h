@@ -27,9 +27,4 @@ void initTable(Table *table);
 void freeTable(Table *table);
 void growTable(Table *table, int capacity);
 
-String *copyString(const char *chars);
-void freeString(String *string);
-
-bool tableSet(Table *table, String *key, int value);
-
 #endif
